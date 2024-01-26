@@ -1,0 +1,19 @@
+{
+    "geometry" : {
+        "sphere_radius" : 0.5,
+        "lambda" : [ 0.0, 0.0, 2.25, 0.1],
+        "lambda_notes" : [[ 0.0, 0.0, 2.25, 0.15202041],"wing",
+                        [0.0, 1.21, 0.5625, 0.09],"ellipsoid wo",
+                        [0.0, 1.21, 0.5625, 0.09],"ellipsoid"],
+        "zeta_0" : [ 0.0, 0.0, -0.1, 0.1],
+        "zeta_0_notes" : [[ 0.0, -0.1, 0.0, 0.1],"wing",
+                        [ 0.0, -0.1, 0.0, 0.1],"ellipsoid wo",
+                        [ 0.0, 0.0, 0.0, 0.0],"ellipsoid"],
+        "theta_nodes" : 20,
+        "phi_nodes" : 20
+    },
+    "run_commands" : {
+        "show_region" : true,
+        "create_stl" : false
+    }
+}
